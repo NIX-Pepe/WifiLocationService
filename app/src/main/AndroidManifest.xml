@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.pepe4u.wifilocator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MapWatchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ListFloorActivity"
+            android:label="@string/title_activity_list_floor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddFloorActivity"
+            android:label="@string/title_activity_add_floor" >
+        </activity>
+        <activity
+            android:name=".MapCreateActivity"
+            android:label="@string/title_activity_map_create" >
+        </activity>
+    </application>
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+</manifest>
