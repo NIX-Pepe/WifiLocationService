@@ -17,3 +17,5 @@ de.pepe4u.wifilocator.logic .
 
 All activities belong to a simple app demonstrating the functions
 of the location services.
+
+A release for iOS is planned in the future.
