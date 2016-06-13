@@ -1,6 +1,6 @@
 # WifiLocationService
 
-This is a simple library to provide indoor location services.
+This is a simple library to provide indoor location services on android devices.
 The algorithm gettint location information is simple and robust
 penality based fitness function. It provides good results in
 large wifi enabled environments. 
