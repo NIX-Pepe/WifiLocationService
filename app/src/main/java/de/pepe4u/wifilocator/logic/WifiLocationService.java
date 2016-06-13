@@ -14,10 +14,12 @@ import de.pepe4u.wifilocator.data.WifiLocations;
 import de.pepe4u.wifilocator.data.WifiLocationsDbHelper;
 
 /**
+ * Simple library to provide indoor navigation and location services.
  *
- * This simple libra
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Philipp Neuser <pneuser@physik.fu-berlin.de>
  *
- * Created by PEPE on 12.06.2016.
+ * Created by Philipp Neuser on 12.06.2016.
  */
 public class WifiLocationService {
 

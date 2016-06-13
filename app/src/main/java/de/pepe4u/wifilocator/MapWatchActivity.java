@@ -24,7 +24,14 @@ import java.io.File;
 import de.pepe4u.wifilocator.data.WifiLocations;
 import de.pepe4u.wifilocator.logic.WifiLocationService;
 
-
+/**
+ * Simple library to provide indoor navigation and location services.
+ *
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Philipp Neuser <pneuser@physik.fu-berlin.de>
+ *
+ * Created by Philipp Neuser on 23.07.2015.
+ */
 public class MapWatchActivity extends Activity {
 
     int curX = 0;

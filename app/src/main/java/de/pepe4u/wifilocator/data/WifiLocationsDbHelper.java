@@ -5,7 +5,12 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by PEPE on 23.07.2015.
+ * Simple library to provide indoor navigation and location services.
+ *
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Philipp Neuser <pneuser@physik.fu-berlin.de>
+ *
+ * Created by Philipp Neuser on 23.07.2015.
  */
 public class WifiLocationsDbHelper extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION = 5;

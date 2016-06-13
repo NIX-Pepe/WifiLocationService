@@ -3,7 +3,12 @@ package de.pepe4u.wifilocator.data;
 import android.provider.BaseColumns;
 
 /**
- * Created by PEPE on 23.07.2015.
+ * Simple library to provide indoor navigation and location services.
+ *
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Philipp Neuser <pneuser@physik.fu-berlin.de>
+ *
+ * Created by Philipp Neuser on 23.07.2015.
  */
 public class WifiLocations {
     public static abstract class FloorEntry implements BaseColumns {
